@@ -145,7 +145,7 @@ try {
     $mail->Host       = 'smtp.gamil.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'smd32046@gmail.com';                     //SMTP username
-    $mail->Password   = 'bxaf yzqn uydv nzfz';                               //SMTP password
+    $mail->Password   = 'MY PASS';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
