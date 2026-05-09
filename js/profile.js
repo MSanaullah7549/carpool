@@ -47,7 +47,7 @@ $("#updateemailform").submit(function(event){
     event.preventDefault();
     //collect inputs from user
     var datatopost=$(this).serializeArray()
-    console.log(datatopost)
+   // console.log(datatopost)
     //send data to php file using AJAX
     $.ajax({
         url:"../lib/updateemail.php",

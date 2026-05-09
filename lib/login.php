@@ -78,7 +78,7 @@
                 $user_id = $_SESSION['user_id'];
                 $expiration = date('Y-m-d H:i:s', time() + 1296000);
                 
-                $sql = "INSERT INTO rememberme (`authentificator`, `f2authentificator`, `user_id`, `expires`)
+                $sql = "INSERT INTO rememberme (`authentificator1`, `f2authentificator2`, `user_id`, `expires`)
                 VALUES ('$authentificator1', '$f2authentificator2', '$user_id', '$expiration')";
                 $result = mysqli_query($con, $sql);
                 if(!$result){
